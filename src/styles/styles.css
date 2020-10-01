@@ -1,0 +1,25 @@
+@import "~normalize.css";
+@import "roboto.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding-top: 2rem;
+    max-width: 1000px;  
+}
+
+.h1 {
+    text-align: center;
+}
+
+.logo {
+    background-image: url("../assets/react-logo.png");
+    background-size: cover;
+    height: 500px;
+}
+
+.code {
+    border: 2px solid lawngreen;
+}
